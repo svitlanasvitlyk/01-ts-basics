@@ -1,9 +1,9 @@
 interface Product {
   readonly id: number;
-  name: string;
+  title: string;
   description?: string;
 }
-const product = {
+const product: Product = {
   id: 1,
   title: "Tablet",
   description: "Compact and fast",
